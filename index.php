@@ -71,7 +71,6 @@
         ?>
 
     <!-- Footer -->
-    
     <footer class="text-center pb-3" style="background-color: #194350">
       <p class="text-white mt-3 mx-auto">Created by adwl</p>
     </footer>
