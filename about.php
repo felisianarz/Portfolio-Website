@@ -4,20 +4,29 @@
 	private $asal;
 	private $univ;
 	private $jurusan;
+
+    public function __construct($panggilan,$asal,$univ,$jurusan){
+        $this->panggilan = $panggilan;
+        $this->asal = $asal;
+        $this->univ = $univ;
+        $this->jurusan = $jurusan;
+    }
  
-	public function setpanggilan($a){
-		$this->panggilan = $a;
+	// method setter
+	public function setpanggilan($panggilanx){
+		$this->panggilan = $panggilanx;
 	}
-	public function setasal($a){
-		$this->asal = $a;
+	public function setasal($asalx){
+		$this->asal = $asalx;
 	}
-	public function setuniv($a){
-		$this->univ = $a;
+	public function setuniv($univx){
+		$this->univ = $univx;
 	}
-	public function setjurusan($a){
-		$this->jurusan = $a;
+	public function setjurusan($jurusanx){
+		$this->jurusan = $jurusanx;
 	}
  
+	// method getter
 	public function getpanggilan() {
 		return $this->panggilan; 
 	}
@@ -32,15 +41,9 @@
 	}
 }
  
-
-// object
-$aboutme = new aboutme;
-
-$aboutme->setpanggilan("Adel");
-$aboutme->setasal("Purwokerto");
-$aboutme->setuniv("Diponegoro University");
-$aboutme->setjurusan("Computer Engineering");
-
+// object aboutme
+$aboutme = new aboutme("Adel","Purwokerto","Diponegoro University","Computer Engineering");
+ 
 ?>
 
 <!-- Jumbotron -->
@@ -64,6 +67,8 @@ $aboutme->setjurusan("Computer Engineering");
 
         <div class="row justify-content-center fs-5 text-center">
             <div class="col-md-6 mb-3 text-white">
+
+                    <!-- panggil -->
                     <?php 
                     echo "Hello fren! My name is Felisiana Ardelia Azzahra. You can call me "
                     .$aboutme->getpanggilan(). "." ;
