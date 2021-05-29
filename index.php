@@ -59,7 +59,7 @@
                 include "about.php";
                 break;
               case 'gallery':
-                include "gallery.php";
+                include "gallery.html";
                 break;			
               case 'contact':
                 include "contact.html";
