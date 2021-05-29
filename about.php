@@ -41,7 +41,6 @@ $aboutme->setasal("Purwokerto");
 $aboutme->setuniv("Diponegoro University");
 $aboutme->setjurusan("Computer Engineering");
 
-
 ?>
 
 <!-- Jumbotron -->
