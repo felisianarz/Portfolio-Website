@@ -5,7 +5,6 @@
 	private $univ;
 	private $jurusan;
  
-	// method untuk setter
 	public function setpanggilan($a){
 		$this->panggilan = $a;
 	}
@@ -19,7 +18,6 @@
 		$this->jurusan = $a;
 	}
  
-	// method untuk getter
 	public function getpanggilan() {
 		return $this->panggilan; 
 	}
@@ -34,16 +32,15 @@
 	}
 }
  
-// proses instansiasi object
-// buat sebuah object kendaraan
+
+// object
 $aboutme = new aboutme;
-// masukan sebuah nama didalam method setter
+
 $aboutme->setpanggilan("Adel");
 $aboutme->setasal("Purwokerto");
 $aboutme->setuniv("Diponegoro University");
 $aboutme->setjurusan("Computer Engineering");
- 
-// menampilkan  nama yang telah di set diatas
+
 
 ?>
 
