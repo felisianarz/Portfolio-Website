@@ -8,4 +8,4 @@ cara buka
 4. zipnya taruh situ, ekstrak file
 5. rename jadi portofolio
 6. buka xampp, apache - start
-7. buka dibrowser http://localhost/lala/portfolio/index.php?tab=home
+7. buka dibrowser http://localhost/lala/portfolio/index.php
