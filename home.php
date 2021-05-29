@@ -1,13 +1,13 @@
 <!-- Class & Constructor -->
 <?php 
 class home{
-      public $name;
+      public $welcome;
     
-      function __construct($name) {
-        $this->name = $name; 
+      function __construct($welcome) {
+        $this->welcome = $welcome; 
       }
-      function get_name() {
-        return $this->name;
+      function get_welcome() {
+        return $this->welcome;
       }
     }
     
@@ -17,6 +17,6 @@ class home{
 <!-- Jumbotron -->
 <section class="jumbotron text-center">
       <img src="img/home.png" alt="Felisiana" width="700" />
-      <h1 ><?php echo $porto->get_name();  ?></h1>
+      <h1 ><?php echo $porto->get_welcome();  ?></h1>
 </section>
 <!-- Akhir Jumbrotron -->
