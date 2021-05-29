@@ -1,0 +1,34 @@
+.jumbotron {
+  padding-top: 8rem;
+  padding-bottom: 110px;
+  background-color: #ffffff;
+}
+
+#about {
+  background-color: #285461;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+#services {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+#find {
+  background-color: #285461;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+#gallery {
+  background-color: #ffffff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+footer {
+  padding-top: 10px;
+}
