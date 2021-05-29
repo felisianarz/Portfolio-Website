@@ -20,3 +20,4 @@ class home{
       <h1 ><?php echo $porto->get_welcome();  ?></h1>
 </section>
 <!-- Akhir Jumbrotron -->
+
