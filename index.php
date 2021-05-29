@@ -65,7 +65,7 @@
                 break;			
             }
           }else{
-            include "index.php";
+            include "home.php";
           }
         ?>
 
