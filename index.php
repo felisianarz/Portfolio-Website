@@ -40,6 +40,9 @@
             <li class="nav-item">
               <a class="nav-link text-white" href="index.php?tab=contact">Contact Me</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.php?tab=covid">Covid</a>
+            </li>
           </ul>
         </div>
       </div>        
@@ -63,7 +66,10 @@
                 break;			
               case 'contact':
                 include "contact.html";
-                break;			
+                break;		
+              case 'covid':
+                include "covid.php";
+                break;	
             }
           }else{
             include "home.php";
@@ -71,6 +77,7 @@
         ?>
 
     <!-- Footer -->
+    
     <footer class="text-center pb-3" style="background-color: #194350">
       <p class="text-white mt-3 mx-auto">Created by adwl</p>
     </footer>
