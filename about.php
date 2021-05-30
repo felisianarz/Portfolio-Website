@@ -94,6 +94,10 @@ $aboutme = new aboutme("Adel","Purwokerto","Diponegoro University","Computer Eng
 </section> 
 <!-- Akhir About -->
 
+<!-- Array -->
+<?php 
+$cuan = ["Design", "Content Creator", "Videography","Programming"];
+?>
 
 <!-- Services-->
 <section class="page-section" id="services">
@@ -103,28 +107,36 @@ $aboutme = new aboutme("Adel","Purwokerto","Diponegoro University","Computer Eng
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi bi-brush fs-1 " style="color: #194350" ></i></div>
-                            <h3 class="h4 mb-2">Design</h3>
+                            <h3 class="h4 mb-2">
+                                <?php echo $cuan[0]."<br>"; ?>
+                            </h3>
                             <p class="text-muted mb-0">Ilustration, Graphic Design, UI/UX, Motion Graphic</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi bi-pencil-square fs-1 " style="color: #194350" ></i></div>
-                            <h3 class="h4 mb-2">Content Creator</h3>
+                            <h3 class="h4 mb-2">
+                            <?php echo $cuan[1]."<br>"; ?>
+                            </h3>
                             <p class="text-muted mb-0">Content Management, Copywriting, Digital Advertising</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi bi-camera-reels fs-1 " style="color: #194350" ></i></div>
-                            <h3 class="h4 mb-2">Videography</h3>
+                            <h3 class="h4 mb-2">
+                            <?php echo $cuan[2]."<br>"; ?>
+                            </h3>
                             <p class="text-muted mb-0">Animation, Media Management, Transcription</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi bi-code fs-1 " style="color: #194350" ></i></div>
-                            <h3 class="h4 mb-2">Programming</h3>
+                            <h3 class="h4 mb-2">
+                            <?php echo $cuan[3]."<br>"; ?>
+                            </h3>
                             <p class="text-muted mb-0">Html, CSS, PHP, Python, Java, C++ </p>
                         </div>
                     </div>
