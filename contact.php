@@ -17,15 +17,23 @@
 
         <div class="row text-center mt-5 mb-3">
           <div class="col">
-            <h2>Thank You!</h2>
+
+            <!-- Variable, Tipe data -->
+            <h2><?php 
+            $makasi="Thank you!";
+            echo $makasi; ?></h2>
+
           </div>
         </div>
 
         <div class="row justify-content-center fs-5 text-center">
             <div class="col-md-6">
+
+            <!-- POST -->
             Hello <?php echo $name = $_POST['name'];?>, your messages will be forward<br>
             Your email address is <?php echo $email = $_POST['email']; ?> <br>
             Your message is <?php echo $message = $_POST['message']; ?>
+
             </div>   
       </div>
 
@@ -36,6 +44,7 @@
         </div>
 
     </section> 
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
