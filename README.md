@@ -1,2 +1,3 @@
-# Website portofolio dengan tambahan informasi penyebaran covid di Indonesia
-Tugas akhir praktikum dkp
+  #   Tugas Akhir Praktikum DKP
+
+Website portofolio dengan tambahan informasi covid di Indonesia
