@@ -41,7 +41,7 @@
               <a class="nav-link text-white" href="index.php?tab=contact">Contact Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="index.php?tab=covid">Covid</a>
+              <a class="nav-link text-white" href="index.php?tab=covid">Covid Information</a>
             </li>
           </ul>
         </div>
