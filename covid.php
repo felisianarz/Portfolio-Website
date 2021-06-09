@@ -85,4 +85,37 @@
         </table>
     </div>
 
+    <div class="container">
+
+        <?php 
+            $p = file_get_contents('https://api.kawalcorona.com/');
+            $global= json_decode($p, true);
+        ?>        
+    
+        <table class="table table-bordered mt-4">
+            <thead>
+                <th>No</th>
+                <th>Country</th>
+                <th>Coronavirus Cases</th>
+                <th>Recovered</th>
+                <th>Deaths</th>
+            </thead>
+            <tbody>
+                <?php
+                    $a=1;
+                    foreach($global as $gbl) :
+                ?>
+                <tr>
+                    <td><?= $a++; ?></td>
+                    <td><?= $gbl['attributes']['Country_Region']; ?></td>
+                    <td><?= $gbl['attributes']['Confirmed']; ?></td>
+                    <td><?= $gbl['attributes']['Recovered']; ?></td>
+                    <td><?= $gbl['attributes']['Deaths']; ?></td>
+                </tr>
+                <?php 
+                    endforeach;
+                ?>
+            </tbody>
+        </table>
+    </div>
  
